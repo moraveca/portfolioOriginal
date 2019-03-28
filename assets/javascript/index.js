@@ -34,9 +34,13 @@ function showContact() {
     $("#contactLink").addClass("active");
 }
 
+
+
 $(document).on("click", "#hangmanLink", openHangman);
 $(document).on("click", "#giphyLink", openGiphy);
 $(document).on("click", "#awesomeLink", openAwesome);
+$(document).on("click", "#crystalLink", openCrystal);
+
 
 function openHangman() {
     window.open("https://moraveca.github.io/Word-Guess-Game/");
@@ -50,6 +54,9 @@ function openAwesome() {
     window.open("https://danpatcia.github.io/Group_Project_Awesome/")
 }
 
+function openCrystal() {
+    window.open("https://moraveca.github.io/unit-4-game/")
+}
 
 
 
