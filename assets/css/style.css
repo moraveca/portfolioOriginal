@@ -1,13 +1,5 @@
-html {
-    background: url(../images/whitebrick.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-}
-
 body {
+    background-image: url(https://subtlepatterns.com/patterns/brickwall.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     text-align: justify;
@@ -28,6 +20,15 @@ h1, h2, h3, h4 {
     display: flex;
 }
 
+.btn {
+    background-color: #407076;
+    color: white;
+}
+
+.navbar {
+    background-color: #407076;
+    color: white;
+}
 
 nav {
     width: 960px;
@@ -63,19 +64,19 @@ li a {
 }
 
 li a.navlink:hover {
-    background-color: #4aaaa5;
+    background-color: #407076;
 }
 
 div.title {
     float: left;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #407076;
     text-align: center;
     padding: 10px;
 }
 
 h2, h3 {
-    color: #4aaaa5;
+    color: #407076;
 }
 
 img.portfolioPic {
@@ -123,8 +124,13 @@ hr {
     display: flex;
 }
 
-#bigbox {
+#portBox {
     margin: 60px auto 100px;
+    display: none;
+}
+
+#contactBox {
+    display: none;
 }
 
 footer {
@@ -138,7 +144,7 @@ footer {
     font-size: small; 
     bottom: 0;
     border-top: 8px solid;
-    border-color: #4aaaa5;
+    border-color: #407076;
     clear: both;
 }
 
@@ -168,7 +174,7 @@ input#message {
 
 input[type=submit] {
     position: relative;
-    background-color: #4aaaa5;
+    background-color: #407076;
     color: #ffffff;
     width: 50px;
     padding: 8px;
@@ -185,15 +191,15 @@ input[type=submit] {
 .container {
     text-align: center;
     padding: 2px 16px;
-    background-color: #4aaaa5;
+    background-color: #407076;
 }
 
-  h4 {
-      color: #ffffff;
+h4 {
+    color: #ffffff;
 }
 
-  img.imageCard {
-      margin: 0;
+img.imageCard {
+    height: 148.5px;
 }
 
 form {
@@ -203,7 +209,6 @@ form {
 div.mainBio {
     width: auto;
 }
-
 
    /* For mobile phones: */
 @media only screen and (max-width: 640px) {
@@ -235,20 +240,19 @@ div.mainBio {
 
 }
    
-    
       /* For tablets: */
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     div.main {
         margin-bottom: 20%;
     }
-
-
-
-
-    
-  }
+}
   
-  @media only screen and (min-width: 980px) {
+@media only screen and (min-width: 980px) {
     /* For desktop: */
     
-  }
+}
+
+
+
+  /* #EBBAB9        #C9C5BA         #97B1A6         #698996             #407076 */
+  /* Spanish pink   pale silver     quick silver    light slate gray    ming */

@@ -1,74 +1,157 @@
 <!doctype html>
 <html lang="en">
-    <head>
 
-        <title>About Me</title>
+<head>
 
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
+<body>
 
-    </head>
-    
-    <body>
-       
-        <div class="content">
-        
-            <nav>
-                
-                <div class="title"><h1>Adrian Moravec</h1></div>
-                
-                <ul>
-                    <li><a class="navlink" href="contact.html">Contact</a></li>
-                    <li><a>|</a></li>
-                    <li><a class="navlink" href="portfolio.html">Portfolio</a></li>    
-                    <li><a>|</a></li>
-                    <li><a class="navlink" href="#about">About</a></li>
-                </ul>
-
-                <div class="whiteheader">
-                
-                </div>
-            
-            </nav>
-
-            <div class="border">
-
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand btn-lg" href="#">Adrian Moravec</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" id="bioLink">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" id="portLink">Portfolio</a>
+                <a class="nav-item nav-link" id="contactLink">Contact</a>
             </div>
-                
-            <div class="main">
-        
-                <h2>About Me</h2>
+        </div>
+    </nav>
+    <br>
 
-                <hr>
+    <div class="content">
 
-                <!-- I ran out of time to figure this out completely, but here's what I was working on. I couldn't get my 
+        <div class="main" id="bioBox">
+
+            <h2>About Me</h2>
+
+            <hr>
+
+            <!-- I ran out of time to figure this out completely, but here's what I was working on. I couldn't get my 
                 text to wrap around the photo at bigger sizes, so I ended up placing all of the <p> in divs in an attempt
                 to make a series of responsive boxes that would fit the larger box responsively. The problem I got stuck at
                 was that while I could force the width to fit using a percentage, the height wouldn't change so only the
                 first <p> actually sits by the photo. Also I realize this is a problem for the lower <p>s in that they won't
                 fit the entire box's width if they're forced to be 80%. Anyway. There it is. -->
 
-                    <img class="portfolioPic" src="./assets/images/IMG_1374.jpg" alt="profile pic">
-        
-                    <div class="mainBio"><p>My name is Adrian Moravec. I am new to the coding world and am excited to learn the ropes at this Boot Camp course.</p></div>
+            <img class="portfolioPic" src="./assets/images/IMG_1374.jpg" alt="profile pic">
 
-                    <div class="mainBio"><p>I grew up in a small town of 6,000 in Nebraska and moved to attend school in Minneapolis. I graduated from Augsburg College with a double major in Music and Film. I then went on to study and obtain a Master's Degree in Film Journalism at the University of Scotland.</p></div>
-        
-                    <div class="mainBio"><p>I have two lovely (if aggravatingly difficult to put to sleep) kclasss aged 2 and 4 and been married for nearly twelve years. After working various retail jobs I currently teach private piano and guitar lessons at Beacon Academy in Crystal.</p></div>
-
-                    <div class="mainBio"><p>I currently reside in Brooklyn Park, MN where I watch as many movies as I possibly can and try to find time to cook and bake (particularly cookies).</p></div>
-            
+            <div class="mainBio">
+                <p>My name is Adrian Moravec. I am new to the coding world and am excited to learn the ropes at this
+                    Boot Camp course.</p>
             </div>
+
+            <div class="mainBio">
+                <p>I grew up in a small town of 6,000 in Nebraska and moved to attend school in Minneapolis. I graduated
+                    from Augsburg College with a double major in Music and Film. I then went on to study and obtain a
+                    Master's Degree in Film Journalism at the University of Scotland.</p>
+            </div>
+
+            <div class="mainBio">
+                <p>I have two lovely (if aggravatingly difficult to put to sleep) kclasss aged 2 and 4 and been married
+                    for nearly twelve years. After working various retail jobs I currently teach private piano and
+                    guitar lessons at Beacon Academy in Crystal.</p>
+            </div>
+
+            <div class="mainBio">
+                <p>I currently reside in Brooklyn Park, MN where I watch as many movies as I possibly can and try to
+                    find time to cook and bake (particularly cookies).</p>
+            </div>
+        </div>
+
+        <div class="main" id="portBox">
+
+            <h3>Portfolio</h3>
+
+            <hr>
+
+            <div class="card" id="hangmanLink">
+                <img class="imageCard" src="./assets/images/hangman.png" style="width:100%">
+                <div class="container">
+                    <h4>Hangman</h4>
+                </div>
+            </div>
+
+            <div class="card" id="giphyLink">
+                <img class="imageCard" src="https://media.giphy.com/media/xVropKV7bfh0A/giphy.gif" style="width:100%">
+                <div class="container">
+                    <h4>Giphy App</h4>
+                </div>
+            </div>
+
+            <div class="card" id="awesomeLink">
+                <img class="imageCard" src="./assets/images/cinema.jpg" style="width:100%">
+                <div class="container">
+                    <h4>Movie Journal</h4>
+                </div>
+            </div>
+
+            <!-- <div class="card">
+                <img class="imageCard" src="./assets/images/nebraska.jpg" alt="nebraska" style="width:100%">
+                <div class="container">
+                    <h4>Nebraska</h4>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="imageCard" src="./assets/images/glasgow.jpg" alt="glasgow" style="width:100%">
+                <div class="container">
+                    <h4>Glasgow</h4>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="imageCard" src="./assets/images/minneapolis.jpg" alt="minneapolis" style="width:100%">
+                <div class="container">
+                    <h4>Minneapolis</h4>
+                </div>
+            </div> -->
 
         </div>
 
-        <footer>
-        
-                <p id="copyright">Copyright © Adrian Moravec. All rights reserved.</p>
-            
-        </footer>
+        <div class="main" id="contactBox">
 
-    </body>
+            <h3>Contact</h3>
+
+            <hr>
+
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <p id="copyright">Copyright © Adrian Moravec. All rights reserved.</p>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/index.js"></script>
+
+</body>
+
 </html>
