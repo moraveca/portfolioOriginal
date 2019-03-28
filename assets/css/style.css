@@ -1,13 +1,9 @@
 body {
     background-image: url(https://subtlepatterns.com/patterns/brickwall.png);
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Actor', sans-serif;
     color: #777777;
     text-align: justify;
     height: 100%;
-}
-           
-h1, h2, h3, h4 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .content {
@@ -85,24 +81,8 @@ img.portfolioPic {
     margin: 8.83px 10px 10px 0;
 }
 
-div.whiteheader {
-    height: 94.813px;
-    width: 100vw;
-    background-color: white;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
-div.border {
-    background-color: #dddddd;
-    height: 2px;
-    width: 100vw;
-}
-
 hr {
-    background-color: #dddddd;
+    background-color: #97B1A6;
     height: 2px;
     border: 0;
     margin-bottom: 10px;
@@ -135,16 +115,16 @@ hr {
 
 footer {
     position: relative;
-    background-color: #666666;
-    color: #cccccc;
+    background-color: #407076;
+    color: #C9C5BA;
     width: 100vw;
     height: 86.813px;
     margin-top: -86.813px;
     text-align: center;
-    font-size: small; 
+    font-size: 15px; 
     bottom: 0;
     border-top: 8px solid;
-    border-color: #407076;
+    border-color: #C9C5BA;
     clear: both;
 }
 
@@ -208,17 +188,18 @@ form {
 
 div.mainBio {
     width: auto;
+    float: right;
 }
 
    /* For mobile phones: */
 @media only screen and (max-width: 640px) {
     header {
-        position: static
+        position: static;
     }
     
     div.title {
         width: 100%;
-        }
+    }
    
     ul {
         overflow: visible;
@@ -229,11 +210,12 @@ div.mainBio {
         position: relative;
         margin: auto;
     }
+
     img.portfolioPic {
         float: none;
         margin: 0 auto;
-
     }
+
     footer {
         margin-top: 15%;
     }

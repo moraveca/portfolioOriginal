@@ -1,1 +1,1 @@
-# portfolio
+Welcome to my portfolio! Here you can find a number of different projects that I've worked on, including a hangman game, an app using Giphy, and a project that is a type of media journal, cataloging movies and books for personal use. Take a look around, and if you have any questions, feel free to email me at moraveca@gmail.com. Thanks!
