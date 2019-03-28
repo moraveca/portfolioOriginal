@@ -51,13 +51,34 @@ function openGiphy() {
 }
 
 function openAwesome() {
-    window.open("https://danpatcia.github.io/Group_Project_Awesome/")
+    window.open("https://moraveca.github.io/movieJournal/")
 }
 
 function openCrystal() {
     window.open("https://moraveca.github.io/unit-4-game/")
 }
 
+$(document).on("click", "#hangCode", hangCode);
+$(document).on("click", "#gifCode", gifCode);
+$(document).on("click", "#crystalCode", crystalCode);
+$(document).on("click", "#journalCode", journalCode);
+
+
+function hangCode() {
+    window.open("https://github.com/moraveca/Word-Guess-Game.git");
+}
+
+function gifCode() {
+    window.open("https://github.com/moraveca/giphy_app.git");
+}
+
+function crystalCode() {
+    window.open("https://github.com/moraveca/unit-4-game.git")
+}
+
+function journalCode() {
+    window.open("https://github.com/moraveca/movieJournal.git")
+}
 
 
 
