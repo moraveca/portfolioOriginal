@@ -212,9 +212,14 @@ form {
     width: 100%;
 }
 
-div.mainBio {
-    width: auto;
+.contactInfo {
+    text-align: center;
+}
+
+.bioText {
     float: right;
+    width: auto;
+    height: auto;
 }
 
    /* For mobile phones: */
@@ -238,7 +243,6 @@ div.mainBio {
     }
 
     img.portfolioPic {
-        float: none;
         margin: 0 auto;
     }
 
