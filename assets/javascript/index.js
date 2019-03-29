@@ -81,6 +81,24 @@ function journalCode() {
 }
 
 
+$(document).on("click", "#contactSubmit", sendEmail);
+
+function sendEmail() {
+    
+}
+
+$(document).on("click", "#gitLink", openGit);
+$(document).on("click", "#linkedLink", openLinked);
+
+function openGit() {
+    window.open("https://github.com/moraveca");
+}
+
+function openLinked() {
+    window.open("https://www.linkedin.com/in/adrian-moravec-96012024")
+}
+
+
 
 
 

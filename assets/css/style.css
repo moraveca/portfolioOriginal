@@ -123,6 +123,7 @@ hr {
     max-width: 960px;
     height: auto;
     display: flex;
+    box-shadow: 10px 10px 8px 10px #888888;
 }
 
 #portBox {
@@ -197,6 +198,10 @@ input[type=submit] {
 
 h4 {
     color: #ffffff;
+}
+
+h4.links {
+    color: #407076;
 }
 
 img.imageCard {
