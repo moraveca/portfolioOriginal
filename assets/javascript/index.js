@@ -107,7 +107,7 @@ function sendEmail() {
     alert("Email functionality is currently in progress... Feel free to send an email to moraveca@gmail.com")
 }
 
-$(document).on("click", "#gitLink", openGit);
+$(document).on("click", "#gitPortLink", openGit);
 $(document).on("click", "#linkedLink", openLinked);
 
 function openGit() {

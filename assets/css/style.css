@@ -82,6 +82,7 @@ h3 {
 
 .gitLink {
     color: #EBBAB9;
+    cursor: pointer;
 }
 
 .codeLink {
@@ -205,6 +206,7 @@ h4 {
 
 h4.links {
     color: #407076;
+    cursor: default;
 }
 
 img.imageCard {
@@ -222,6 +224,14 @@ form {
 .bioText {
     width: auto;
     height: auto;
+}
+
+#gitPortLink {
+    cursor: pointer;
+}
+
+#linkedLink {
+    cursor: pointer;
 }
 
    /* For mobile phones: */
