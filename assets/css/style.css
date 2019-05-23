@@ -92,6 +92,7 @@ img.portfolioPic {
     max-height: 25vh;
     width: auto;
     margin: 8.83px 10px 10px 0;
+    float: left;
 }
 
 .navbar-brand {
@@ -100,6 +101,7 @@ img.portfolioPic {
 
 .nav-item {
     font-size: 20px;
+    cursor:pointer;
 }
 
 hr {
@@ -188,6 +190,7 @@ input[type=submit] {
     min-width: 220px;
     float: left;
     padding: 10px;
+    cursor: pointer;
 }
 
 .container {
@@ -217,7 +220,6 @@ form {
 }
 
 .bioText {
-    float: right;
     width: auto;
     height: auto;
 }

@@ -40,6 +40,8 @@ $(document).on("click", "#hangmanLink", openHangman);
 $(document).on("click", "#giphyLink", openGiphy);
 $(document).on("click", "#awesomeLink", openAwesome);
 $(document).on("click", "#crystalLink", openCrystal);
+$(document).on("click", "#sportsChatLink", openSports);
+$(document).on("click", "#burgerLink", openBurger);
 
 
 function openHangman() {
@@ -58,10 +60,20 @@ function openCrystal() {
     window.open("https://moraveca.github.io/unit-4-game/")
 }
 
+function openSports() {
+    window.open("https://sleepy-dusk-14317.herokuapp.com/")
+}
+
+function openBurger() {
+    window.open("https://vast-bastion-19663.herokuapp.com/")
+}
+
 $(document).on("click", "#hangCode", hangCode);
 $(document).on("click", "#gifCode", gifCode);
 $(document).on("click", "#crystalCode", crystalCode);
 $(document).on("click", "#journalCode", journalCode);
+$(document).on("click", "#sportsCode", sportsCode);
+$(document).on("click", "#burgerCode", burgerCode);
 
 
 function hangCode() {
@@ -78,6 +90,14 @@ function crystalCode() {
 
 function journalCode() {
     window.open("https://github.com/moraveca/movieJournal.git")
+}
+
+function sportsCode() {
+    window.open("https://github.com/moraveca/sports_chat.git")
+}
+
+function burgerCode() {
+    window.open("https://github.com/moraveca/burger.git")
 }
 
 
