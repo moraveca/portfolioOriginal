@@ -125,7 +125,7 @@ hr {
     flex-wrap: wrap;
     max-width: 960px;
     height: auto;
-    display: flex;
+    /* display: flex; */
     box-shadow: 10px 10px 8px 10px #888888;
 }
 
@@ -254,9 +254,9 @@ form {
         margin: auto;
     }
 
-    img.portfolioPic {
+    /* img.portfolioPic {
         margin: 0 auto;
-    }
+    } */
 
     footer {
         margin-top: 15%;
