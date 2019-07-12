@@ -42,6 +42,8 @@ $(document).on("click", "#awesomeLink", openAwesome);
 $(document).on("click", "#crystalLink", openCrystal);
 $(document).on("click", "#sportsChatLink", openSports);
 $(document).on("click", "#burgerLink", openBurger);
+$(document).on("click", "#flockLink", openFlock);
+
 
 
 function openHangman() {
@@ -54,6 +56,10 @@ function openGiphy() {
 
 function openAwesome() {
     window.open("https://moraveca.github.io/movieJournal/")
+}
+
+function openFlock() {
+    window.open("https://flock-51279.firebaseapp.com/")
 }
 
 function openCrystal() {
@@ -74,6 +80,8 @@ $(document).on("click", "#crystalCode", crystalCode);
 $(document).on("click", "#journalCode", journalCode);
 $(document).on("click", "#sportsCode", sportsCode);
 $(document).on("click", "#burgerCode", burgerCode);
+$(document).on("click", "#flockCode", flockCode);
+
 
 
 function hangCode() {
@@ -90,6 +98,10 @@ function crystalCode() {
 
 function journalCode() {
     window.open("https://github.com/moraveca/movieJournal.git")
+}
+
+function flockCode() {
+    window.open("https://github.com/moraveca/firebaseFlock.git")
 }
 
 function sportsCode() {
