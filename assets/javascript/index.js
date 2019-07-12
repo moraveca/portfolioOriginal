@@ -115,7 +115,7 @@ function openGit() {
 }
 
 function openLinked() {
-    window.open("https://www.linkedin.com/in/adrian-moravec-96012024")
+    window.open("https://www.linkedin.com/in/adrian-moravec")
 }
 
 
